@@ -13,4 +13,4 @@ run:
     steps:
         - 'echo this is testjob1 from github'
         - 'cat /etc/motd'
-        - 'fio -rw=write -ioengine=psync -directory=/media/sdcard -bs=32k -numjobs=1 -group_reporting -name=testreport -direct=1 -size=128M'
+        - 'fio -rw=write -ioengine=psync -directory=/media/sdcard -bs=64k -numjobs=1 -group_reporting -name=testreport -direct=1 -size=512M'
