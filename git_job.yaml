@@ -12,5 +12,5 @@ metadata:
         - rts3904
 run:
     steps:
-        - 'echo this is test job from github'
-        - 'cat /etc/motd' || true
+        - echo this is test job from github
+        - cat /etc/motd || true
